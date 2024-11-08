@@ -6,7 +6,7 @@ require("dotenv").config();
 const users = require("./routes/projectRoute");
 //
 const mongoString =
-  "mong odb+srv://fadhilelrizanda:A0Ve2IeGyU8KYJ2I@cluster0.ekexg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+  "mongodb+srv://fadhilelrizanda:A0Ve2IeGyU8KYJ2I@cluster0.ekexg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 mongoose.connect(mongoString, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
